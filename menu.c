@@ -1133,7 +1133,7 @@ int menu_input_settings(){
 	#if defined(GCWZERO)
 	dialog_text("GCW Zero","Gameboy",0);                     /* 1 */
 	#else
-	dialog_text("Dingoo","Gameboy",0);                       /* 1 */
+	dialog_text("Miyoo","Gameboy",0);                       /* 1 */
 	#endif /* GCWZERO */
 	#endif /* DINGOO_OPENDINGUX */
 	#if defined(GP2X_ONLY)
@@ -1529,7 +1529,7 @@ int menu(){
 #ifdef CAANOO
 		dialog_begin(rom.name,"Press Home to open the menu");
 #endif
-		dialog_text("Back to Game",NULL,FIELD_SELECTABLE);       /* 1 */
+		dialog_text("Continue",NULL,FIELD_SELECTABLE);       /* 1 */
 		dialog_text("Load State",NULL,FIELD_SELECTABLE);         /* 2 */
 		dialog_text("Save State",NULL,FIELD_SELECTABLE);         /* 3 */
 		dialog_text("Reset Game",NULL,FIELD_SELECTABLE);         /* 4 */
